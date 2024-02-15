@@ -23,24 +23,22 @@ def print_menu():
     print("4. Run All")
     print("===================")
 
-# Get user input for email
-email = input("Enter the email for UFINDER: ")
-
-# Get user input for username (you can replace this with your logic)
-username = input("Enter the username for UFINDER.py: ")
-
 # Display the menu and get user choice
 while True:
     print_menu()
     choice = input("Enter your choice (1-4): ")
 
     if choice == '1':
+        email = input("Enter the email for OSINTPWD2: ")
         run_script("PWNER.py", "-e", email)
     elif choice == '2':
+        username = input("Enter the username for UFINDER.py: ")
         run_script("UFINDER.py", "-u", username)
     elif choice == '3':
         run_script("BreachedCredCheck.py")
     elif choice == '4':
+        email = input("Enter the email for OSINTPWD2: ")
+        username = input("Enter the username for UFINDER.py: ")
         run_all_scripts(email, username)
     else:
         print(f"{Fore.YELLOW}Invalid choice. Please enter a number from 1 to 4.")
