@@ -11,7 +11,7 @@ def run_breach_directory_query(required_term):
     querystring = {"func": "auto", "term": required_term}
     
     headers = {
-        "X-RapidAPI-Key": "18126ca6a6mshbc1f9e90e0292a3p191e71jsnd999a0dc0937",
+        "X-RapidAPI-Key": "c6dba1dd8dmsh51bc98ea497a31bp1bc9bajsn55302a9fba61",
         "X-RapidAPI-Host": "breachdirectory.p.rapidapi.com"
     }
     
