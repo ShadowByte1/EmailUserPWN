@@ -11,10 +11,10 @@ def run_script(script_name, *args):
 email = input("Enter the email for OSINTPWD2: ")
 
 # Run OSINTPWD2 with the provided email
-run_script("OSINTPWD2", "-e", email)
+run_script("PWNER.py", "-e", email)
 
 # Run osint.py with the provided username
-run_script("osint.py")
+run_script("UFINDER.py")
 
 # Run BreachedCredCheck.py
 run_script("BreachedCredCheck.py")
