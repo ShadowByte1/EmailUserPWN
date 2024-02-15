@@ -33,7 +33,7 @@ while True:
         run_script("PWNER.py", "-e", email)
     elif choice == '2':
         username = input("Enter the username for UFINDER.py: ")
-        run_script("UFINDER.py", "-u", username)
+        run_script("UFINDER.py")
     elif choice == '3':
         run_script("BreachedCredCheck.py")
     elif choice == '4':
