@@ -29,7 +29,7 @@ while True:
     choice = input("Enter your choice (1-4): ")
 
     if choice == '1':
-        email = input("Enter the email for OSINTPWD2: ")
+        email = input("Enter the email for BreachPwner: ")
         run_script("PWNER.py", "-e", email)
     elif choice == '2':
         username = input("Enter the username for UFINDER.py: ")
