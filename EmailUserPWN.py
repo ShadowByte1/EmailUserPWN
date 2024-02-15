@@ -37,7 +37,7 @@ while True:
     elif choice == '3':
         run_script("BreachedCredCheck.py")
     elif choice == '4':
-        email = input("Enter the email for OSINTPWD2: ")
+        email = input("Enter the email for Breached Cred Checker X2: ")
         username = input("Enter the username for UFINDER.py: ")
         run_all_scripts(email, username)
     else:
