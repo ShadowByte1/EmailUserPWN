@@ -24,7 +24,7 @@ def print_menu():
     print("===================")
 
 # Get user input for email
-email = input("Enter the email for OSINTPWD2: ")
+email = input("Enter the email for UFINDER: ")
 
 # Get user input for username (you can replace this with your logic)
 username = input("Enter the username for UFINDER.py: ")
