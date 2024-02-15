@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # Check if the username is provided as a command line argument
     if len(sys.argv) != 2:
         # Ask for a username if not provided
-        username = input("Enter the username for osint.py: ")
+        username = input("Enter the username for Username Finder: ")
     else:
         username = sys.argv[1]
 
